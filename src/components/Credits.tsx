@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import logoImg from "../assets/LogoF.svg";
 
 const Logo = () => {
   return (
@@ -9,7 +8,7 @@ const Logo = () => {
       </a>
 
       <a href="https://github.com/fnwk">
-        <img src={logoImg} />
+        <img src="/LogoF.svg" />
       </a>
     </CreditsStyled>
   );
@@ -25,11 +24,7 @@ const CreditsStyled = styled.div`
   height: 50px;
 
   img {
-    width: 10vw;
-
-    @media screen and (min-width: 600px) {
-      width: 3vw;
-    }
+    width: 38px;
   }
 
   .model-author {
